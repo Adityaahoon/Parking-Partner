@@ -21,7 +21,7 @@ for i in range (100):
         DF3=DF1["Password"][DF1["Password"]==PWord]
         DF2=np.array([DF2])
         DF3=np.array([DF3])              
-        if np.array([UName])==DF2 and np.array([PWord])==DF3:
+        if np.array([UName])==DF2  and np.array([PWord])==DF3:
                             print("Login Successful".center(130))
                             c2=0
                             while c2!=5:
